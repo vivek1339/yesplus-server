@@ -1,0 +1,35 @@
+{
+  "name": "yes_plus_webapp",
+  "version": "1.0.0",
+  "description": "Node server",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivek1339/Yes_Plus_webapp.git"
+  },
+  "author": "Backend",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vivek1339/Yes_Plus_webapp/issues"
+  },
+  "homepage": "https://github.com/vivek1339/Yes_Plus_webapp#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bind.js": "^1.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.2.0",
+    "morgan": "^1.10.0",
+    "react-dom": "^16.13.1",
+    "sockjs": "^0.3.20",
+    "xhr.js": "^1.0.2"
+  },
+  "devDependencies": {}
+}
